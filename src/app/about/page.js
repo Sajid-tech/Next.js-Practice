@@ -7,7 +7,7 @@ const About = () => {
     return (
 
         <div>
-            <h1>About page reloaded</h1>
+            <h1 className='heading'>About page reloaded</h1>
             <Link href="/">Go to Homepage</Link>
             <br />
             <br />

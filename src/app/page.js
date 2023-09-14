@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1>NESTED ROUTING | Make new page</h1>
+      <h1>Common layout | Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -27,10 +27,3 @@ export default function Home() {
   )
 }
 
-// what is nested routing
-// Make nested routing
-// Make navigation between nested Page 
-// interview questions
-// what is nested routing
-// pattern for nested routing
-// lecture 8 of next.js
