@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1>Common layout | Make new page</h1>
+      <h1>Conditional Layout | Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
