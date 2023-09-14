@@ -3,6 +3,7 @@ import { useRouter } from 'next/navigation'
 import styles from './page.module.css'
 import Link from 'next/link'
 
+
 export default function Home() {
   let router = useRouter()
   const navigate = (name) => {
@@ -10,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1>Linking adn Navigation | Make new page</h1>
+      <h1>NESTED ROUTING | Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -26,3 +27,10 @@ export default function Home() {
   )
 }
 
+// what is nested routing
+// Make nested routing
+// Make navigation between nested Page 
+// interview questions
+// what is nested routing
+// pattern for nested routing
+// lecture 8 of next.js
