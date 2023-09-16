@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Dynamic Routing | Make new page</h1>
+      <h1> Catch all segments of route | Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -22,7 +22,10 @@ export default function Home() {
       <br />
       <button onClick={() => navigate("/about")}>Go to About page</button>
       <br /> <br />
+
       <button onClick={() => navigate("/studentlist")}>Student List(for dynamic routing)</button>
+      <br /> <br />
+      <button onClick={() => navigate("/study")}>Study (for all catch segment)</button>
 
     </main>
 
