@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Catch all segments of route | Make new page</h1>
+      <h1> Fetch data in client component| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -26,6 +26,8 @@ export default function Home() {
       <button onClick={() => navigate("/studentlist")}>Student List(for dynamic routing)</button>
       <br /> <br />
       <button onClick={() => navigate("/study")}>Study (for all catch segment)</button>
+      <br /> <br />
+      <button onClick={() => navigate("/productlist")}>Go to product list</button>
 
     </main>
 
