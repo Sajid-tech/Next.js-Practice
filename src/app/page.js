@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Fetch data in client component| Make new page</h1>
+      <h1> Fetch data in server component| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -27,7 +27,9 @@ export default function Home() {
       <br /> <br />
       <button onClick={() => navigate("/study")}>Study (for all catch segment)</button>
       <br /> <br />
-      <button onClick={() => navigate("/productlist")}>Go to product list</button>
+      <button onClick={() => navigate("/productlist")}>Go to product list(client componets)</button>
+      <br /> <br />
+      <button onClick={() => navigate("/productserver")}>Go to product list (server componets)</button>
 
     </main>
 
