@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1>Conditional Layout | Make new page</h1>
+      <h1> Dynamic Routing | Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -21,6 +21,8 @@ export default function Home() {
       <button onClick={() => navigate("/login")}>Go to Login page</button>
       <br />
       <button onClick={() => navigate("/about")}>Go to About page</button>
+      <br /> <br />
+      <button onClick={() => navigate("/studentlist")}>Student List(for dynamic routing)</button>
 
     </main>
 
