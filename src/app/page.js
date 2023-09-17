@@ -32,6 +32,8 @@ export default function Home() {
       <button onClick={() => navigate("/productserver")}>Go to product list (server componets)</button>
       <br /> <br />
       <button onClick={() => navigate("/user")}>User  (style with css)</button>
+      <br /> <br />
+      <button onClick={() => navigate("/modularcss")}>Modular css  (style with css)</button>
 
     </main>
 
