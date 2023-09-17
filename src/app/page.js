@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Use client component with server components| Make new page</h1>
+      <h1> style with css in next.js| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -30,6 +30,8 @@ export default function Home() {
       <button onClick={() => navigate("/productlist")}>Go to product list(client componets)</button>
       <br /> <br />
       <button onClick={() => navigate("/productserver")}>Go to product list (server componets)</button>
+      <br /> <br />
+      <button onClick={() => navigate("/user")}>User  (style with css)</button>
 
     </main>
 
