@@ -4,6 +4,7 @@ import styles from './page.module.css'
 import Link from 'next/link'
 
 
+
 export default function Home() {
   let router = useRouter()
   const navigate = (name) => {
@@ -11,7 +12,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Conditional css in next.js| Make new page</h1>
+      <h1> Image optimizations in next.js| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -36,9 +37,15 @@ export default function Home() {
       <button onClick={() => navigate("/modularcss")}>Modular css  (style with css)</button>
       <br /> <br />
       <button onClick={() => navigate("/conditioncss")}>conditional css  (style with css)</button>
+      <br />
+      <button onClick={() => navigate("/imageoptimization")}>Image Optimization</button>
+
 
     </main>
 
+
+
   )
 }
+
 
