@@ -11,7 +11,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Fetch data in server component| Make new page</h1>
+      <h1> Use client component with server components| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
