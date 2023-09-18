@@ -39,6 +39,8 @@ export default function Home() {
       <button onClick={() => navigate("/conditioncss")}>conditional css  (style with css)</button>
       <br />
       <button onClick={() => navigate("/imageoptimization")}>Image Optimization</button>
+      <br /> <br />
+      <button onClick={() => navigate("/metadata")}>Genrate metadata</button>
 
 
     </main>
