@@ -12,7 +12,7 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <h1> Image optimizations in next.js| Make new page</h1>
+      <h1> Script componets in next.js| Make new page</h1>
       <Link href="/login">Go to Login page</Link>
       <br />
       <br />
@@ -41,6 +41,7 @@ export default function Home() {
       <button onClick={() => navigate("/imageoptimization")}>Image Optimization</button>
       <br /> <br />
       <button onClick={() => navigate("/metadata")}>Genrate metadata</button>
+
 
 
     </main>
